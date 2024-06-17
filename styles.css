@@ -1,0 +1,108 @@
+<style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://img2.akspic.ru/attachments/originals/6/4/8/4/44846-zaliv-potok-ruchej-rastitelnost-ekosistema-3648x2048.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        header {
+            background: rgba(112, 161, 255, 0.8);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-family: 'Lobster', cursive;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        h1, h2 {
+            font-family: 'Lobster', cursive;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .gallery-container img {
+            width: 200px;
+            height: auto;
+        }
+
+        footer {
+            background: rgba(112, 161, 255, 0.8);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 0.5rem 0;
+        }
+
+        ul li a {
+            color: #70a1ff;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .quiz-answer {
+            display: none;
+        }
+
+        .quiz-answer.correct {
+            display: block;
+            color: green;
+        }
+
+        .quiz-answer.wrong {
+            display: block;
+            color: red;
+        }
+
+        .answer {
+            display: none;
+        }
+
+        input:checked ~ .answer.correct {
+            display: block;
+            color: green;
+        }
+
+        input:checked ~ .answer.wrong {
+            display: block;
+            color: red;
+        }
+    </style>
